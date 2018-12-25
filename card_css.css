@@ -1,0 +1,21 @@
+body{
+  background-image: linear-gradient(orange, blue);
+  font-family: Jua;
+  border: dotted;
+  border-color: red;
+  text-align: center;
+  color: red;
+}
+button{
+  color: red;
+}
+
+
+#p2 {
+  background-color: black;
+}
+
+img {
+  width: 350px;
+}
+

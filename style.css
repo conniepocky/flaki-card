@@ -1,0 +1,62 @@
+body{
+  font-family: Lobster;
+  background-color: black;
+}
+#snowman{
+  position: absolute;
+  left: 20;
+  height: 60%;
+}
+#text{
+  color: 	Orchid;
+}
+#santa{
+  position: absolute;
+  height: 30%;
+  left: -150;
+  animation: santa 9s infinite;
+}
+
+#metroid{
+  position: absolute;
+  height: 30%;
+  left: -150;
+  animation: metroid 9s infinite;
+}
+#tree{
+  position: absolute;
+  left: 500;
+}
+button{
+  background: OldLace;
+}
+#sky{
+  top: 0;
+  width: 105%;
+}
+h1{
+  color: red;
+  text-align: center;
+  border: dotted;
+  border-color: white;
+  background-color: black;
+}
+#snow{
+  position: absolute;
+  left: -10;
+  width: 105%;
+  height: 50%;
+  bottom: 0;
+  background: white;
+  text-align: center;
+}
+@keyframes santa{
+  0% {left: -250;}
+  100% {left: 1500;}
+}
+
+@keyframes metroid{
+  0% {left: 700;}
+  100% {left: -150;}
+}
+
